@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net462;net48</TargetFrameworks>
+	<TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageId>Secs4Net</PackageId>
     <Product>Secs4Net</Product>
     <Copyright>Copyright © secs4net 2019</Copyright>
@@ -25,6 +25,10 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
